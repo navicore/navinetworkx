@@ -3,11 +3,11 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "CHANGE_ME"
+name = "navinetworkx"
 authors = [
     {name = "Ed Sweeney", email = "ed@onextent.com"},
 ]
-description = "My CHANGE_ME Python Project"
+description = "My navinetworkx Python Project"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -19,4 +19,4 @@ classifiers = [
 dependencies = [
 ]
 [project.scripts]
-CHANGE_ME = "CHANGE_ME.__main__:main"
+navinetworkx = "navinetworkx.__main__:main"

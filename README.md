@@ -1,13 +1,13 @@
-CHANGE_ME
+navinetworkx
 ==============
 
 Installing
 -----------
 
-via [Pypi](https://pypi.org/project/CHANGE_ME)
+via [Pypi](https://pypi.org/project/navinetworkx)
 
 ```
-python -m pip install CHANGE_ME
+python -m pip install navinetworkx
 ```
 
 Or install with "editing" mode from cloned repo for development of the code.

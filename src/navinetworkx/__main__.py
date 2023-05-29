@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CHANGE_ME
+navinetworkx
 """
 import argparse
 
