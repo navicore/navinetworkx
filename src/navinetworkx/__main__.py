@@ -16,22 +16,22 @@ def main():
     if args.demo:
         print("Demo")
 
-    G = nx.Graph()
-    G.add_node(1)
-    G.add_node(2)
-    G.add_edge(1,2)
-    print(G)
-    G.add_nodes_from([3,4,5])
-    G.add_edges_from([(3,4),(4,5)])
-    print(G)
-    print(G.neighbors(3))
+    graph = nx.Graph()
+    graph.add_node(1)
+    graph.add_node(2)
+    graph.add_edge(1,2)
+    print(graph)
+    graph.add_nodes_from([3,4,5])
+    graph.add_edges_from([(3,4),(4,5)])
+    print(graph)
+    print(graph.neighbors(3))
 
-    G = nx.Graph()
-    G.add_edge("A", "B", weight=4)
-    G.add_edge("B", "D", weight=2)
-    G.add_edge("A", "C", weight=3)
-    G.add_edge("C", "D", weight=4)
-    print(nx.shortest_path(G, "A", "D", weight="weight"))
+    graph = nx.Graph()
+    graph.add_edge("A", "B", weight=4)
+    graph.add_edge("B", "D", weight=2)
+    graph.add_edge("A", "C", weight=3)
+    graph.add_edge("C", "D", weight=4)
+    print(nx.shortest_path(graph, "A", "D", weight="weight"))
 
 
 if __name__ == "__main__":
